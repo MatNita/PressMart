@@ -212,8 +212,8 @@ body{
     }
 }
 .my-section{
-    width: 70%;
-    height: 50vh;
+    width: 90%;
+    height: 70vh;
 
     margin: auto;
     gap: 30px;
@@ -222,13 +222,13 @@ body{
 }
 .my-section .block1{
     width: 50%;
-    height: 103%;
+    height: 100%;
     border-radius: 10px;
     position: relative;
     & img{
         margin-top: 30px;
         width: 100%;
-        height: 90%;
+        height: 100%;
         object-fit: cover;
         border-radius: 10px;
     }
@@ -281,7 +281,6 @@ body{
     }
     & .item:nth-child(1){
         position: relative;
-        height: 200px;
         & .text-contain{
             position: absolute;
             top: 7%;
@@ -366,8 +365,6 @@ body{
     }
     & .item:nth-child(3){
         width: 700px;
-        height: 220px;
-        bottom: 20px;
         background-color: greenyellow;
         grid-column: span 2;
         position: relative;
@@ -501,11 +498,11 @@ body{
     }
 }
 .my-section2{
-    width: 70%;
-    height: 40vh;
+    width: 91%;
+    height: 30vh;
     
     margin: auto;
-    gap: 30px;
+    gap: 20px;
     display: flex;
      
 }
