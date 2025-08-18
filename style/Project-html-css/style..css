@@ -264,7 +264,7 @@ body{
 }
 .my-section .block2{
     width: 50%;
-    height: 105%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2,auto);
     justify-content: center;
@@ -274,8 +274,8 @@ body{
     
     & .item{
         top: 0;
-        width: 335px;
-        height: 290px;
+        width: 325px;
+        height: 240px;
         background-color: brown;
         border-radius: 10px;
     }
@@ -284,7 +284,7 @@ body{
         & .text-contain{
             position: absolute;
             top: 7%;
-            left: 5%;
+            left: 7%;
             width: auto;
             height: auto;
         }
@@ -320,11 +320,10 @@ body{
     }
     & .item:nth-child(2){
         position: relative;
-        height: 200px;
         & .text-contain{
             position: absolute;
             top: 7%;
-            left: 5%;
+            left: 7%;
             width: auto;
             height: auto;
         }
